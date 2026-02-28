@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "tel": "13400011111",
+        "password": "lucky123",
+        "userName": "一一",
+        "img": "img/touxiang/2.jpg",
+        "vipGrade": 10,
+        "youhuiNum": 5,
+        "jifenNum": 199,
+        "zujiNum": 16,
+        "focusNum": 2
+    },
+    {
+        "id": 2,
+        "tel": "15966677700",
+        "password": "123lucky",
+        "userName": "二二",
+        "img": "img/touxiang/3.jpg",
+        "vipGrade": 6,
+        "youhuiNum": 1,
+        "jifenNum": 12,
+        "zujiNum": 3,
+        "focusNum": 4
+    },
+	{
+		"id": 3,
+		"tel": "13727237799",
+		"password": "dy115390",
+		"userName": "三三",
+		"img": "img/touxiang/10.jpg",
+		"vipGrade": 9,
+		"youhuiNum": 4,
+		"jifenNum": 300,
+		"zujiNum": 20,
+		"focusNum": 10
+	},
+	{
+		"id": 4,
+		"tel": "13727235657",
+		"password": "zkf115390",
+		"userName": "---",
+		"img": "img/touxiang/1.jpg",
+		"vipGrade": 8,
+		"youhuiNum": 3,
+		"jifenNum": 300,
+		"zujiNum": 2,
+		"focusNum": 20
+	},
+	{
+		"id": 5,
+		"tel": "13727235859",
+		"password": "lml115390",
+		"userName": "---",
+		"img": "img/touxiang/1.jpg",
+		"vipGrade": 10,
+		"youhuiNum": 7,
+		"jifenNum": 300,
+		"zujiNum": 6,
+		"focusNum": 16
+	},
+	{
+		"id": 6,
+		"tel": "13727235860",
+		"password": "lml115390",
+		"userName": "---",
+		"img": "img/touxiang/1.jpg",
+		"vipGrade": 10,
+		"youhuiNum": 7,
+		"jifenNum": 300,
+		"zujiNum": 6,
+		"focusNum": 16
+	}
+]
