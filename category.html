@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="./iconfont/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css" />
+		<link rel="stylesheet" href="./css/category.css">
+		<title>LuckySHOP购物车</title>
+	</head>
+
+	<body>
+		<!-- 顶部 -->
+		<header>			
+			<i>购物车<span id="boxcd">0</span></i>
+			<a href="#" ><img src="img/categoty/更多.png"/></a>
+		</header>
+		<!-- 商品列表 -->
+		<div id="product" class="product">
+			<!-- <div id="product-box" class="product-box">
+				<div class="product-ckb"><em class="product-em"></em></div>
+				<div class="product-sx">
+					<a href="###">
+						<img src="img/categoty/a3.png" class="product-img" />
+						<span class="product-name">酷冷至尊(Cooler Master)T610P CPU风冷散热器</span>
+					</a>
+					<span class="product-price">¥&thinsp;<span class="price">296</span></span>
+					<div class="product-amount">
+						<div class="product_gw">
+							<em class="product-jian">-</em>
+							<input type="text" value="1" class="product-num" />
+							<em class="product-add">+</em>
+						</div>
+					</div>
+					<div class="product-del"><img src="img/categoty/deleteico.png" /></div>
+				</div>
+			</div> -->
+		</div>
+
+		<!-- 支付栏 -->
+		<div class="product-js">
+			<div class="product-al">
+				<div class="product-all">
+					<em class=""></em>
+				</div>
+				<div class="all-xz">
+					<span class="product-all-qx">全选</span>
+					<div class="all-sl" style="display: none;">(<span class="product-all-sl">0</span>)</div>
+				</div>
+			</div>
+			<a href="#" class="product-sett product-sett-a">结算</a>
+			<div class="all-product"><span class="all-product-a">¥&thinsp;<span class="all-price">296</span></span>
+			</div>
+		</div>
+		<!--购物车空时显示内容-->
+		<div class="kon-cat">
+			<div class="catkon">
+				<div class="kon-box">
+					<div class="kon-hz">
+						<img src="img/categoty/cart-air.png" />
+						<span class="kon-wz">购物车什么都没有</span>
+						<a href="index.html" class="kon-lj">去逛逛</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<ul>
+				<li><a href="index.html"><i class="iconfont icon-a-ziyuan26"></i><span>主页</span></a></li>
+				<li><a href="shopping_cart.html"><i class="iconfont icon-fenlei"></i><span>分类</span></a></li>
+				<li><a href="#"><i class="iconfont icon-a-ziyuan32"></i><span>购物车</span></a></li>
+				<li id="my"><a href="user.html"><i class="iconfont icon-a-ziyuan1"></i><span>我的</span></a></li>
+			</ul>
+		</footer>
+		<script src="json/user.json"></script>
+		<script src="js/axios-0.18.0.js"></script>
+		<script src="./iconfont/iconfont.js"></script>
+		<script src="js/category.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,290 @@
+* {
+	font-size: 5vw;
+	color: #333;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	height: 13vw;
+	z-index: 100;
+	background-color: #fff;
+	box-shadow: 0 -3px 10px 1px rgba(0,0,0, .2);
+}
+
+footer ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 13vw;
+	list-style: none;
+}
+
+footer ul li {
+	width: 25%;
+	height: 100%;
+}
+
+footer ul a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+footer ul li:last-child a i,
+footer ul li:last-child a span {
+	color: #f0ba3e;
+	font-weight: 700;
+}
+
+footer ul li a span {
+	margin-top: 5px;
+	font-size: 3vw;
+}
+
+.top {
+	width: 100vw;
+	height: 55vw;
+	background-color: #FFD676;
+}
+
+.top .more {
+	position: relative;
+	width: 100vw;
+	height: 10vw;
+}
+
+.top .more h2 {
+	margin: 0;
+	text-align: center;
+	line-height: 10vw;
+}
+
+.top .more .icon-qita1 {
+	position: absolute;
+	top: 2vw;
+	right: 3vw;
+	font-size: 6vw;
+}
+
+.top .myInfo {
+	display: flex;
+	align-items: center;
+	width: 100vw;
+	height: 30vw;
+}
+
+.top .myInfo .toxiang {
+	margin: 5vw;
+	width: 20vw;
+	height: 20vw;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.top .myInfo .toxiang img {
+	width: 20vw;
+	height: 20vw;
+}
+
+.top .myInfo .info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 45vw;
+	height: 20vw;
+}
+
+.top .myInfo .info .name {
+	font-size: 4vw;
+	font-weight: 600;
+	margin: 2vw 0;
+}
+
+.top .myInfo .info .vipGrade {
+	width: 15vw;
+	height: 5vw;
+	font-size: 3vw;
+	color: #fff;
+	border-radius: 10%;
+	background-color: rgba(0,0,0, .1);
+	text-align: center;
+	line-height: 5vw;
+}
+
+.top .myInfo .vipCode {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 3vw;
+	width: 19vw;
+	height: 19vw;
+	background-color: #fde5ab;
+	border-radius: 7px;
+}
+
+.top .myInfo .vipCode .icon-erweima {
+	font-size: 8vw;
+}
+
+.top .myInfo .vipCode div {
+	font-size: 3vw;
+	font-weight: 700;
+}
+
+.top .myData {
+	display: flex;
+	justify-content: space-around;
+	width: 100vw;
+	height: 15vw;
+}
+
+.top .myData .card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 20vw;
+	height: 15vw;
+}
+
+.top .myData .card div{
+	font-size: 4vw;
+}
+
+.top .myData .card div:first-child {
+	margin-bottom: 2vw;
+	font-weight: 700;
+}
+
+.bottom {
+	width: 100vw;
+	height: 123vw;
+	background-color: #F4F4F4;
+	padding-top: 3vw;
+	box-sizing: border-box;
+}
+/*我的订单*/
+.bottom .myOrder{
+	margin: 0 auto;
+	width: 94vw;
+	height: 38vw;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+.bottom .myOrder .orderTitle{
+	display: flex;
+	justify-content: space-between;
+	width: 94vw;
+	height: 12vw;
+}
+
+.bottom .myOrder .orderTitle div {
+	width: 25vw;
+	height: 12vw;
+	font-size: 4.5vw;
+	font-weight: 700;
+	text-align: center;
+	line-height: 12vw;
+}
+
+.bottom .myOrder .orderTitle div:last-child {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 3.5vw;
+	color: #666;
+}
+
+.bottom .myOrder .orderTitle div:last-child svg {
+	width: 5vw;
+	height: 5vw;
+}
+
+.bottom .myOrder .order {
+	display: flex;
+	justify-content: space-evenly;
+	width: 94vw;
+	height: 20vw;
+}
+
+.bottom .myOrder .order .card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 20vw;
+	height: 20vw;
+}
+
+.bottom .myOrder .order .card .iconfont {
+	font-size: 6vw;
+	font-weight: 700;
+}
+
+.bottom .myOrder .order .card span:last-child {
+	font-size: 3.5vw;
+}
+
+/*必备工具*/
+.bottom .mytool{
+	margin: 3vw auto;
+	width: 94vw;
+	height: 60vw;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+.bottom .mytool .toolTitle{
+	width: 94vw;
+	height: 12vw;
+}
+
+.bottom .mytool .toolTitle div {
+	width: 25vw;
+	height: 12vw;
+	font-size: 4.5vw;
+	font-weight: 700;
+	text-align: center;
+	line-height: 12vw;
+}
+
+.bottom .mytool .tool{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: space-evenly;
+	width: 94vw;
+	height: 48vw;
+}
+
+.bottom .mytool .tool .card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 20vw;
+	height: 20vw;
+}
+
+.bottom .mytool .tool .card .iconfont {
+	font-size: 6vw;
+	font-weight: 700;
+}
+
+.bottom .mytool .tool .card span:last-child{
+	font-size: 3.5vw;
+}
+footer {
+	position: fixed;
+}
